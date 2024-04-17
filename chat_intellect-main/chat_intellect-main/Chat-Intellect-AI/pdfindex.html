@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF_CHAT</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins&display=swap" rel="stylesheet">
+
+    <script>
+        axios.get('your-api-endpoint')
+  .then(response => {
+    // Handle success
+    console.log(response.data);
+  })
+  .catch(error => {
+    // Handle error
+    console.error(error);
+  });
+    </script>
+
+</head>
+
+<body>
+    <div class="heading">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="./assets/NEWRobo.gif" Logo">
+                    <span class="head">PDF Chattter</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="class1">
+        <iframe src="http://localhost:8501" width="800" height="600"></iframe>
+    </div>
+</body>
